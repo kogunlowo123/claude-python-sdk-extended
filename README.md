@@ -77,3 +77,35 @@ print(response)
 ## License
 
 MIT Licensed. See [LICENSE](LICENSE) for details.
+
+<!-- project-structure -->
+## Project structure
+
+```text
+├── claude_sdk_extended/
+│   ├── __init__.py
+│   ├── batch.py
+│   ├── cache.py
+│   ├── client.py
+│   ├── conversation.py
+│   ├── cost_tracker.py
+│   ├── streaming.py
+│   ├── structured.py
+│   └── … 1 more
+├── docs/
+│   └── architecture.html
+├── .editorconfig
+├── .gitattributes
+├── .gitignore
+├── CHANGELOG.md
+├── CODEOWNERS
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+└── SECURITY.md
+```
+
+<!-- architecture -->
+## Architecture
+
+![Architecture diagram](docs/architecture.svg)
